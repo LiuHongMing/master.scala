@@ -20,7 +20,6 @@ object HelloWorld extends App {
   for (i <- 0 to 2)
     print(greetStrings(i))
 
-    
   val numNumbers1 = Array("zero", "one", "two", "three")
   
   val numNumbers2 = Array.apply("zero", "one", "two", "three")
