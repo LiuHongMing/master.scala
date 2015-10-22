@@ -1,7 +1,5 @@
 package scala.learn
 
-import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf
-
 class Rational(n: Int, d: Int) {
   require(d != 0)
   private val g = gcd(n.abs, d.abs)
