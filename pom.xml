@@ -12,7 +12,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <scala.version>2.11.6</scala.version>
     </properties>
 
     <repositories>
@@ -68,13 +67,28 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.11.6</version>
+            <version>2.12.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.12.1</version>
         </dependency>
         <dependency>
             <groupId>org.scala-lang.modules</groupId>
-            <artifactId>scala-xml_2.11</artifactId>
-            <version>1.0.3</version>
+            <artifactId>scala-xml_2.12</artifactId>
+            <version>1.0.6</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.scala-lang.modules</groupId>-->
+            <!--<artifactId>scala-parser-combinators_2.12</artifactId>-->
+            <!--<version>1.0.4</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.scala-lang.modules</groupId>-->
+            <!--<artifactId>scala-swing_2.12</artifactId>-->
+            <!--<version>2.0.0-M2</version>-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>
